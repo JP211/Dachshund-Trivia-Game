@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body background="assets/images/doxwallsmall.jpg">
+    <div id="main">
+        <h1>Dachshund Trivia Game</h1>
+        <div id="startButton" class="btn-group btn-group-lg" role="group" aria-label="...">START</div>
+        <!-- Timer Div -->
+        <div>
+            <p>Time Remaining: <span id="countdowntimer">30</span></p>
+        </div>
+
+<!-- This is the area where the scores are kept - switches here after time up -->
+<div id="scoreSection">
+<p></p> 
+</div>
+  <!-- Questions -->
+        <div id="question1">
+            <p>1. What country does the dachshund originate from?</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="answer1" name="mylist" value="no" />
+            <label for="test1"> China </label>
+
+            <input type="radio" id="answer2" name="mylist" value="yes" />
+            <label for="test1"> Germany </label>
+
+            <input type="radio" id="answer3" name="mylist" value="no" />
+            <label for="test1"> Scottland </label>
+
+            <input type="radio" id="answer4" name="mylist" value="no"/>
+            <label for="test1"> United States </label>
+        </form>
+        <br>
+        <br>
+        <div id="question2">
+            <p>2. The very first mascot for the 1972 Olympic games was Waldi the dachshund.</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="yes"/>
+            <label for="test1"> True </label>
+            <input type="radio" id="choice2" name="mylist" value="no"/>
+            <label for="test1"> False </label>
+        </form>
+        <br>
+        <br>
+        <div id="question3">
+            <p>3. Owners of dachshunds must be extra careful of which part of the dogs body?</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="no"/>
+            <label for="test1"> Eyes </label>
+            <input type="radio" id="choice2" name="mylist" value="no" />
+            <label for="test1"> Ears </label>
+            <input type="radio" id="choice3" name="mylist" value="no" />
+            <label for="test1"> Nose </label>
+            <input type="radio" id="choice4" name="mylist"  value="yes"/>
+            <label for="test1"> Back </label>
+        </form>
+        <br>
+        <br>
+        <div id="question4">
+            <p>4. Dachshunds are definitely NOT a super popular breed.</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="no" />
+            <label for="test1"> True </label>
+            <input type="radio" id="choice2" name="mylist" value="yes"/>
+            <label for="test1"> False </label>
+        </form>
+        <br>
+        <br>
+        <div id="question5">
+            <p>5. Dachshunds are the smallest breed used for:</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="yes" />
+            <label for="test1"> Hunting </label>
+            <input type="radio" id="choice2" name="mylist" value="no"/>
+            <label for="test1"> Fishing </label>
+            <input type="radio" id="choice3" name="mylist" value="no"/>
+            <label for="test1"> Swimming </label>
+            <input type="radio" id="choice4" name="mylist" value="no" />
+            <label for="test1"> Flying </label>
+        </form>
+        <br>
+        <br>
+        <div id="question6">
+            <p>6. Which Queen was known for having royal dachshunds and popularizing the breed in England?</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="yes" />
+            <label for="test1"> Queen Victoria </label>
+            <input type="radio" id="choice2" name="mylist" value="no" />
+            <label for="test1"> Queen Elizabeth II </label>
+            <input type="radio" id="choice3" name="mylist" value="no"/>
+            <label for="test1"> Queen Maria IV </label>
+            <input type="radio" id="choice4" name="mylist" value="no" />
+            <label for="test1"> Princess Valentina </label>
+        </form>
+        <br>
+        <br>
+        <div id="question7">
+            <p>7. Doxies are best known for:</p>
+        </div>
+        <form id="answerButtons">
+            <input type="radio" id="choice1" name="mylist" value="no" />
+            <label for="test1"> Loyalty </label>
+            <input type="radio" id="choice2" name="mylist" value="no"/>
+            <label for="test1"> Stubborness </label>
+            <input type="radio" id="choice3" name="mylist" value="no" />
+            <label for="test1"> Resemblence to hot dogs </label>
+            <input type="radio" id="choice4" name="mylist" value="yes"/>
+            <label for="test1"> All of the above! </label>
+        </form>
+        <br>
+        <br>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js">
+        </script>
+</body>
+
+</html>
